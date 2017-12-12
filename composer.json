@@ -4,7 +4,7 @@
 	"keywords": [
 		"locale",
 		"language",
-		"translation",
+		"translation"
 	],
 	"autoload": {
 		"psr-4": {
