@@ -1,0 +1,22 @@
+{
+	"name": "plokko/locale-path",
+	"description": "Laravel multi language support with paths",
+	"keywords": [
+		"locale",
+		"language",
+		"translation",
+	],
+	"autoload": {
+		"psr-4": {
+			"Plokko\\LocalePath\\": "src"
+		}
+	},
+	"require": {},
+	"extra":{
+		"laravel":{
+				"providers":[
+					"Plokko\\LocalePath\\LocalePathServiceProvider"
+				]
+		}
+	}
+}
